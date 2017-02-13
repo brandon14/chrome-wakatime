@@ -150,7 +150,7 @@ class WakaTimeCore {
             entity: entity,
             type: type,
             time: moment().format('X'),
-            project: '<<LAST_PROJECT>>',
+            project: 'Research',
             is_debugging: debug,
             plugin: 'chrome-wakatime/' + config.version
         });
